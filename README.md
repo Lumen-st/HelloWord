@@ -2,8 +2,6 @@
 
 Most developers have at least tried using a source code control system at one time or another. If you’re working on a development project as part of a team, such a system is practically indispensible as a way to prevent team members from tripping on each other’s changes. Even if you’re working all by yourself, source code control can provide a valuable safety net, saving a separate copy of your code in a secure repository and providing you a way to undo major mistakes.
 
-But just how effective is your source code control? Like other parts of the development world, there are ways to make source code control work harder on your behalf. In this article, I’ll give you some tips on getting the most out of your source code control system.
-
  ### Rule #1: Choose the Right System
 There are many source code control systems on the market. Rather than just picking the one you know about, or the one that comes for free with your IDE, it’s worth taking the time to seriously evaluate the alternatives. You’ll probably find some that fit in better with your development style than others. Here are a few factors to consider:
 
