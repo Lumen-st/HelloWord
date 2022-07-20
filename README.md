@@ -4,7 +4,7 @@ Most developers have at least tried using a source code control system at one ti
 
 But just how effective is your source code control? Like other parts of the development world, there are ways to make source code control work harder on your behalf. In this article, I’ll give you some tips on getting the most out of your source code control system.
 
-Rule #1: Choose the Right System
+ ### Rule #1: Choose the Right System
 There are many source code control systems on the market. Rather than just picking the one you know about, or the one that comes for free with your IDE, it’s worth taking the time to seriously evaluate the alternatives. You’ll probably find some that fit in better with your development style than others. Here are a few factors to consider:
 
 Price – Some systems are free. Others will cost you hundreds of dollars per user (or even more).
@@ -15,7 +15,7 @@ IDE integration – Some people really care whether the can perform source code 
 Cross-platform support – If you need to do development on more than one platform (say, Windows and Linux), you’ll want a system that works on both platforms.
 There are lots of different systems out there to choose from. Without looking into the enterprise market, here are a few you might like to consider (listed in alphabetical order so as not to play favorites):
 
-Rule #2: Put the Right Things in the System
+ ### Rule #2: Put the Right Things in the System
 Smart teams use the source code control repository for more than just source code. The key is to store any artifact that’s not easily rebuilt from other artifacts. I use “Artifact” as a general term for anything having to do with your software product. Here are a few things you might consider storing in your source code control system:
 
 Source code
@@ -33,14 +33,14 @@ Having everything in one place makes life much simpler when you’re faced with 
 
 Remember, too, that once you store something in the system, you must manage it through the system. Don’t let developers (or anyone else) copy things off to a private sandbox with the intent of checking them in later. Once a file escapes from source code control, you’ll lose the ability to easily re-create the state of your project at a point in time.
 
-Rule #3: Don’t Hog the Files
+### Rule #3: Don’t Hog the Files
 The best developers make frequent small changes to the repository, rather than a few huge changes. In a check-in/edit/check-out system (like Visual SourceSafe) this means only checking out a few files at a time. In an edit/merge/continue system (like CVS) this means committing changes after each task, rather than waiting until the end of a day or even longer.
 
 Minimizing the size of changes has several good effects. First, if you are working with a system that locks files, you can avoid locking other people out for longer than necessary. Second, by keeping your commits small, you vastly lower the chance of needing to merge two incompatible versions of code. Finally, by working in small chunks, you can keep the comments in the source code control system targeted and informative.
 
 And of course, you should strive to have an informative check-in comment for every check-in. If you can’t think of a way to summarize your changes, why did you even make them?
 
-Rule #4: Use Labels and Branches Wisely
+### Rule #4: Use Labels and Branches Wisely
 Labels (sometimes called tags) give you a way to mark a versioned set of files with some friendly name. This is useful because humans are much better at remembering things like “Beta 2” than “Version 3019.4”. You should apply a label to your source code control repository at any significant point in time. This includes:
 
 Public releases of the software
